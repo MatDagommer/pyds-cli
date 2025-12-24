@@ -124,6 +124,10 @@ pixi-kernel = "*"
 [tool.pixi.feature.devtools.dependencies]
 pre-commit = "*"
 
+[tool.pixi.feature.api.dependencies]
+fastapi = "*"
+pydantic = "*"
+
 # NOTE: CUDA feature is inspired by https://github.com/prefix-dev/pixi/issues/1051#issuecomment-2088820974
 [tool.pixi.feature.cuda]
 system-requirements = { cuda = "12" }
